@@ -22,12 +22,17 @@ Scurvy was a devastating disease that affected sailors on long voyages. The cure
 ```{python}
 #| label: dag-1
 #| echo: false
-#| fig-cap: "Simplified Lind's Model (1747)"
+#| out-width: 100%
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 3
 import daft
 import matplotlib.pyplot as plt
 
 # Create a PGM object
 pgm = daft.PGM(dpi=150, alternate_style="outer")
+pgm.figure.set_size_inches(8, 3)
+plt.tight_layout()
 
 # Example of a professionally styled node
 pgm.add_node("lem", "Lemons", 1, 1, aspect = 3, scale = 1.1,
@@ -57,13 +62,18 @@ _ = plt.title("Simplified Lind's Model (1747)", fontsize=16, fontweight='bold', 
 ```{python}
 #| label: dag-2-misguided
 #| echo: false
+#| out-width: 100%
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 3
 import daft
 import matplotlib.pyplot as plt
 
 
 # Create a PGM object with wider x-axis to accommodate spaced-out nodes
 pgm = daft.PGM(dpi=150, alternate_style="outer")
-pgm.figure.set_size_inches(10, 4)  # Width x Height in inches
+pgm.figure.set_size_inches(8, 3)
+plt.tight_layout()
 
 # Example of a professionally styled node - arranged in Z-shape
 pgm.add_node("acid", "Acid", 1, 2.5, aspect = 3, scale = 1.1,
@@ -100,13 +110,18 @@ _ = plt.title("Updated Bacterial Theory (Late 19th Century)", fontsize=16, fontw
 ```{python}
 #| label: dag-3-1928
 #| echo: false
+#| out-width: 100%
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 3
 import daft
 import matplotlib.pyplot as plt
 
 
 # Create a PGM object with wider x-axis to accommodate spaced-out nodes
 pgm = daft.PGM(dpi=150, alternate_style="outer")
-pgm.figure.set_size_inches(10, 4)  # Width x Height in inches
+pgm.figure.set_size_inches(8, 3)
+plt.tight_layout()
 
 # Example of a professionally styled node - arranged in Z-shape
 pgm.add_node("vitc", "Vitamin C", 1, 2.5, aspect = 3, scale = 1.1,

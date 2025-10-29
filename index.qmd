@@ -22,6 +22,7 @@ Scurvy was a devastating disease that affected sailors on long voyages. The cure
 ```{python}
 #| label: dag-1
 #| echo: false
+#| fig-cap: "Simplified Lind's Model (1747)"
 import daft
 import matplotlib.pyplot as plt
 

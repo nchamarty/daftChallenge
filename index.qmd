@@ -1,10 +1,20 @@
-### The Scurvy Story: A Data Science Tragedy
+---
+title: "The Scurvy Story: A Historical Analysis Through DAGs"
+subtitle: "How a Misunderstanding Lost the Cure for 150 Years"
+format:
+  html: default
+execute:
+  echo: false
+  eval: true
+---
+
+# The Scurvy Story: A Data Science Tragedy
 
 Scurvy was a devastating disease that affected sailors on long voyages. The cure was discovered in 1747, but due to a misunderstanding about the cause, the cure was lost for over 150 years. The story involves three different understandings of the data generating process:
 
-1.**1747 Understanding:** Lemons prevent scurvy (correct but incomplete!)
-2.**Misguided Belief:** Acid kills bacteria that causes scurvy (wrong!)
-3.**1928 Understanding:** Vitamin C prevents scurvy (the real mechanism)
+1. **1747 Understanding:** Lemons prevent scurvy (correct but incomplete!)
+2. **Misguided Belief:** Acid kills bacteria that causes scurvy (wrong!)
+3. **1928 Understanding:** Vitamin C prevents scurvy (the real mechanism)
 
 ### DAG 1: The 1747 Understanding (Correct but Incomplete)
 

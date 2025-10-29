@@ -46,7 +46,7 @@ pgm.add_node("scu", "Scurvy", 3.25, 1, aspect = 3, scale = 1.1,
 pgm.add_edge("lem", "scu")
 
 pgm.render()
-plt.title("Simplified Lind's Model (1747)", fontsize=16, fontweight='bold', pad=20)
+_ = plt.title("Simplified Lind's Model (1747)", fontsize=16, fontweight='bold', pad=20)
 ```
 
 ### DAG 2: The Misguided Belief (Wrong Understanding)
@@ -90,7 +90,7 @@ pgm.add_edge("acid", "bac")
 pgm.add_edge("bac","scu")
 pgm.render()
 # Add a title
-plt.title("Updated Bacterial Theory (Late 19th Century)", fontsize=16, fontweight='bold', pad=20)
+_ = plt.title("Updated Bacterial Theory (Late 19th Century)", fontsize=16, fontweight='bold', pad=20)
 ```
 
 ### DAG 3: The 1928 Understanding (Complete and Correct)
@@ -133,5 +133,5 @@ pgm.add_edge("vitc", "coll")
 pgm.add_edge("coll","scu")
 pgm.render()
 # Add a title
-plt.title("Simplified Modern Understanding (1930s onwards)", fontsize=16, fontweight='bold', pad=20)
+_ = plt.title("Simplified Modern Understanding (1930s onwards)", fontsize=16, fontweight='bold', pad=20)
 ```

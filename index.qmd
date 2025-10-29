@@ -76,21 +76,21 @@ pgm.figure.set_size_inches(8, 3)
 plt.tight_layout()
 
 # Example of a professionally styled node - arranged in Z-shape
-pgm.add_node("acid", "Acid", 1, 2.5, aspect = 3, scale = 1.1,
+pgm.add_node("acid", "Acid", 0.5, 2.5, aspect = 3, scale = 1.1,
              plot_params={
                  'facecolor': 'green', 
                  'edgecolor': 'blue', 
                  'linewidth': 2,
                  'alpha': 0.8,
              })
-pgm.add_node("bac", "Bacteria in\n Food", 3.75, 1.5, aspect = 3, scale = 1.1,
+pgm.add_node("bac", "Bacteria in\n Food", 2.5, 1.5, aspect = 3, scale = 1.1,
              plot_params={
                  'facecolor': 'lightcoral', 
                  'edgecolor': 'darkred', 
                  'linewidth': 2,
                  'alpha': 0.8,
              })
-pgm.add_node("scu", "Scurvy", 6.5, 0.5, aspect = 3, scale = 1.1,
+pgm.add_node("scu", "Scurvy", 4.5, 0.5, aspect = 3, scale = 1.1,
              plot_params={
                  'facecolor': 'thistle', 
                  'edgecolor': 'purple', 
@@ -124,21 +124,21 @@ pgm.figure.set_size_inches(8, 3)
 plt.tight_layout()
 
 # Example of a professionally styled node - arranged in Z-shape
-pgm.add_node("vitc", "Vitamin C", 1, 2.5, aspect = 3, scale = 1.1,
+pgm.add_node("vitc", "Vitamin C", 0.5, 2.5, aspect = 3, scale = 1.1,
              plot_params={
                  'facecolor': 'yellow', 
                  'edgecolor': 'orange', 
                  'linewidth': 2,
                  'alpha': 0.8,
              })
-pgm.add_node("coll", "Collagen\n Synthesis", 3.75, 1.5, aspect = 3, scale = 1.1,
+pgm.add_node("coll", "Collagen\n Synthesis", 2.5, 1.5, aspect = 3, scale = 1.1,
              plot_params={
                  'facecolor': 'lightblue', 
                  'edgecolor': 'darkblue', 
                  'linewidth': 2,
                  'alpha': 0.8,
              })
-pgm.add_node("scu", "Scurvy", 6.5, 0.5, aspect = 3, scale = 1.1,
+pgm.add_node("scu", "Scurvy", 4.5, 0.5, aspect = 3, scale = 1.1,
              plot_params={
                  'facecolor': 'thistle', 
                  'edgecolor': 'purple', 

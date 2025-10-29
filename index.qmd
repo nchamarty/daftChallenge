@@ -24,8 +24,8 @@ Scurvy was a devastating disease that affected sailors on long voyages. The cure
 #| echo: false
 #| out-width: 100%
 #| fig-align: center
-#| fig-width: 8
-#| fig-height: 3
+#| fig-width: 6
+#| fig-height: 4
 import daft
 import matplotlib.pyplot as plt
 
@@ -64,8 +64,8 @@ _ = plt.title("Simplified Lind's Model (1747)", fontsize=12, fontweight='bold', 
 #| echo: false
 #| out-width: 100%
 #| fig-align: center
-#| fig-width: 8
-#| fig-height: 3
+#| fig-width: 6
+#| fig-height: 4
 import daft
 import matplotlib.pyplot as plt
 
@@ -112,8 +112,8 @@ _ = plt.title("Updated Bacterial Theory (Late 19th Century)", fontsize=12, fontw
 #| echo: false
 #| out-width: 100%
 #| fig-align: center
-#| fig-width: 8
-#| fig-height: 3
+#| fig-width: 6
+#| fig-height: 4
 import daft
 import matplotlib.pyplot as plt
 
